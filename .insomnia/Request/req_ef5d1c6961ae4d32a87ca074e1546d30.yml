@@ -1,0 +1,21 @@
+_id: req_ef5d1c6961ae4d32a87ca074e1546d30
+type: Request
+parentId: wrk_997881b1279a49329618402ed1c71b57
+modified: 1688802216084
+created: 1688802119820
+url: "{{ _.base_url }}/api/health"
+name: /health
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1687710948002
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

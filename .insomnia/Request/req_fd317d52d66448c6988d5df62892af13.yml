@@ -1,0 +1,21 @@
+_id: req_fd317d52d66448c6988d5df62892af13
+type: Request
+parentId: fld_6253a28ffc2447768019b7b3c1cd9b1e
+modified: 1688937977401
+created: 1688937970601
+url: "{{ _.base_url }}/api/kitchen/orders/received"
+name: /api/kitchen/orders/received
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1688319365890.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

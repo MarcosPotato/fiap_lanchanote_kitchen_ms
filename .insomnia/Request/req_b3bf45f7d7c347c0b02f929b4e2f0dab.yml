@@ -1,0 +1,25 @@
+_id: req_b3bf45f7d7c347c0b02f929b4e2f0dab
+type: Request
+parentId: fld_6253a28ffc2447768019b7b3c1cd9b1e
+modified: 1688948716060
+created: 1688938015170
+url: "{{ _.base_url }}/api/kitchen/orders/2/prepare"
+name: /api/kitchen/orders/{orderId}/prepare
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1688293375666.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
