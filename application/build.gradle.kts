@@ -3,9 +3,18 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     id("org.springframework.boot")
     id("io.spring.dependency-management")
+    id("org.sonarqube") version "4.4.1.3373"
     kotlin("jvm")
     kotlin("plugin.spring")
     kotlin("plugin.jpa")
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "fiap-postech-tech-challenge_tech-challenge")
+        property("sonar.organization", "fiap-postech-tech-challenge")
+        property("sonar.host.url", "https://sonarcloud.io")
+    }
 }
 
 repositories {
